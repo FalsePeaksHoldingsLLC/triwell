@@ -1,0 +1,28 @@
+{
+  "name": "web-framework",
+  "version": "1.0.0",
+  "description": "A skeleton for scaling out N number of websites more efficiently",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickagel/web-framework.git"
+  },
+  "author": "Nick Agel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nickagel/web-framework/issues"
+  },
+  "homepage": "https://github.com/nickagel/web-framework#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-ng-annotate": "^2.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
