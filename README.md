@@ -12,9 +12,9 @@ The setup process creates the following folders
 
 The setup process creates the following files
 ```
-- .htaccess     # apache alter configuration file
-- robot.txt     # search engine optimization file
-- sitemap.html  # search engine optimization file
+- .htaccess     *# apache alter configuration file*
+- robot.txt     *# search engine optimization file*
+- sitemap.html  *# search engine optimization file*
 
 To instantiate setup run the following command
 ```
