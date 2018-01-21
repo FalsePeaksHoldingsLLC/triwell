@@ -3,11 +3,11 @@ This project is to streamline the setup of a website process utilizing build too
 
 ## SETUP
 The setup process creates the following folders
-- content/      # all html based files
-- images/       # all images
-- ng/           # all angular based files
-- js/           # all other JavaScript based files
-- site_build/   # the compiled website ready for release 
+- content/      *# all html based files*
+- images/       *# all images*
+- ng/           *# all angular based files*
+- js/           *# all other JavaScript based files*
+- site_build/   *# the compiled website ready for release* 
 ```
 
 The setup process creates the following files
