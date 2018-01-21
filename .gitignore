@@ -1,0 +1,5 @@
+node_modules/
+site_build/scripts.min.js
+site_build/style.min.css
+site_build/index.html
+site_build/images/*
