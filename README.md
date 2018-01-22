@@ -23,6 +23,7 @@ make setup
 
 ## DEVELOPMENT
 The following command compiles website and compresses images into *site_build/* directory
+```
 make build
 ```
 
@@ -38,6 +39,13 @@ make compress
 
 ## RELEASE
 Make sure all variables are set in *GLOBAL PARAMETERS* section
+```
+make release
+```
+*NOTE:* a backup is made automatically ../backup
+ 
+## RECOVER
+This will revert the release to the previous version stored in ../backup
 ```
 make release
 ```
