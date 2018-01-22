@@ -50,5 +50,15 @@ build: compile compress
 
 Phony: release
 release: build
-	ssh $(USER)@$(ACCOUNT):$(BASE_WD) 'mkdir -p $(BASE_WD)/images/'
+	ssh $(USER)@$(ACCOUNT) 'mkdir -p $(BASE_WD)../backup/'
+	ssh $(USER)@$(ACCOUNT) 'rm -rf $(BASE_WD)../backup/*'
+	ssh $(USER)@$(ACCOUNT) 'mv $(BASE_WD)* $(BASE_WD)../backup/'
 	scp -P 22 -r site_build/* $(USER)@$(ACCOUNT):$(BASE_WD)
+
+
+##############################################   Website Restore   #####################################################
+
+Phony: restore
+restore: 
+	ssh $(USER)@$(ACCOUNT) 'rm -rf $(BASE_WD)*'
+	ssh $(USER)@$(ACCOUNT) 'mv $(BASE_WD)../backup/* $(BASE_WD)'
