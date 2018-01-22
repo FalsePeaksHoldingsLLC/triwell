@@ -44,8 +44,8 @@ make release
 ```
 *NOTE:* a backup is made automatically ../backup
  
-## RECOVER
+## RESTORE
 This will revert the release to the previous version stored in ../backup
 ```
-make release
+make restore
 ```
