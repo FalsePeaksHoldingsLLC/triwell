@@ -2,7 +2,7 @@ app.config(['$routeProvider','$locationProvider',
     function ($routeProvider, $locationProvider){
         $routeProvider
         .when("/", {
-            templateUrl : "templates/yellow.html"
+            templateUrl : "templates/blue.html"
         })
         .when("/red", {
             templateUrl : "templates/red.html"
@@ -10,8 +10,8 @@ app.config(['$routeProvider','$locationProvider',
         .when("/green", {
             templateUrl : "templates/green.html"
         })
-        .when("/blue", {
-            templateUrl : "templates/blue.html"
+        .when("/contact", {
+            templateUrl : "templates/contact.html"
         });
         $locationProvider.html5Mode(true);
         $locationProvider.hashPrefix('!');
