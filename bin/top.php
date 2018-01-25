@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <base href="./[DIRECTORY_CHANGE]">
         <title></title>
         <meta charset="UTF-8">
         <meta name="description" content="">
