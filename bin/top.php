@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <base href="./[DIRECTORY_CHANGE]">
+        <base href="/[DIRECTORY_CHANGE]/">
         <title></title>
         <meta charset="UTF-8">
         <meta name="description" content="">
@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="icon" type="image/x-icon" href="./images/fav-icon.ico" />
         <link rel="shortcut icon" href="./images/fav-icon.ico" />
-        <link rel="stylesheet" href="style.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./style.min.css" type="text/css" media="screen">
         <script src="./pre-scripts.min.js"></script>
 </head>
 <body ng-app="myApp">
