@@ -7,8 +7,8 @@ app.config(['$routeProvider','$locationProvider',
         .when("/red", {
             templateUrl : "templates/red.html"
         })
-        .when("/green", {
-            templateUrl : "templates/green.html"
+        .when("/blog", {
+            templateUrl : "templates/blog.html"
         })
         .when("/contact", {
             templateUrl : "templates/contact.html"

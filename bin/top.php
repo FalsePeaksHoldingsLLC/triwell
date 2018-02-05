@@ -14,4 +14,4 @@
         <script src="./pre-scripts.min.js"></script>
         
 </head>
-<body ng-app="myApp">
+<body ng-app="dataApp" ng-controller="dataCtrl">
