@@ -1,0 +1,74 @@
+#blog img{
+    float: left;
+    padding-right:  10px;
+}
+#blog .card-content{
+    height: 295px;
+    overflow: hidden;
+    -webkit-transition: height 5s ease-in-out;
+    -moz-transition: height 5s ease-in-out;
+    -o-transition: height 5s ease-in-out;
+    transition: height 5s ease-in-out;
+}
+
+#blog .card-action{
+    text-align: right;
+}
+
+#blog .date-card{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+}
+
+#blog .date-card{
+    background-color: #ee6e73;
+    margin-top: 7px;
+    padding: 10px;
+}
+
+#blog .date-card-month{
+    margin:0;
+    padding:0;
+    font-size:20px;
+}
+
+#blog .date-card-day{
+    font-size: 40px;
+    margin:0;
+    padding: 25px;
+}
+
+#blog .date-card-year{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+@media screen and (min-width:1250px){
+    #blog .row{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+#blog p{
+    text-align: justify;
+}
+
+.maximize {
+    height: 100% !important;
+}
+
+#blog .card .card-title{
+    font-weight: 400;
+    margin-top: 0;
+    padding: 5px 0;
+}
+
+
+
+#blog .collection{
+    border: none;
+}

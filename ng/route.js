@@ -2,16 +2,16 @@ app.config(['$routeProvider','$locationProvider',
     function ($routeProvider, $locationProvider){
         $routeProvider
         .when("/", {
-            templateUrl : "templates/yellow.html"
+            templateUrl : "templates/home.html"
         })
-        .when("/red", {
-            templateUrl : "templates/red.html"
+        .when("/about", {
+            templateUrl : "templates/about.html"
         })
-        .when("/green", {
-            templateUrl : "templates/green.html"
+        .when("/blog", {
+            templateUrl : "templates/blog.html"
         })
-        .when("/blue", {
-            templateUrl : "templates/blue.html"
+        .when("/contact", {
+            templateUrl : "templates/contact.html"
         });
         $locationProvider.html5Mode(true);
         $locationProvider.hashPrefix('!');
