@@ -1,0 +1,27 @@
+<section id="blog">
+<h1>Blog</h1>
+<div class="collection">
+    <div class="collection-item" ng-repeat="blog in blogs | orderBy: -blog.published">
+            <div class="row" id="{{blog.id}}">
+                    <div class="col s12 m8">
+                      <div class="card blue-grey lighten-3">
+                        <div class="card-content white-text">
+                          <h1 class="card-title">{{blog.title}}</h1>
+                          <p ng-bind-html="blog.content"></p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#" ng-click="maximize(blog.id)">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="date-card">
+                          <p class="date-card-month">{{blog.MONTH}}</p>
+                          <p class="date-card-day">{{blog.DAY}}</p>
+                          <p class="date-card-year">{{blog.YEAR}}</p>
+                      </div>
+                    </div>
+                  </div>     
+    </div>
+</div>
+</section>
