@@ -7,7 +7,7 @@ gulp.task('js-post', function () {
   return gulp.src(["ng/app.js", "ng/route.js", "ng/appData.js", "js/jquery.js", "js/materialize.js",  "js/init.js"])
     .pipe(concat("post-scripts.min.js"))
     .pipe(ngAnnotate())
-    .pipe(gulp.dest("site_build"))
+    .pipe(gulp.dest("docs"))
 })
 
 gulp.task('js-pre', function () {
@@ -15,5 +15,5 @@ gulp.task('js-pre', function () {
     .pipe(concat("pre-scripts.min.js"))
     .pipe(ngAnnotate())
     .pipe(uglify())
-    .pipe(gulp.dest("site_build"))
+    .pipe(gulp.dest("docs"))
 })
