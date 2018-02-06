@@ -6,5 +6,5 @@ gulp.task('css', function(){
     return gulp.src(["style/*"])
         .pipe(concat("style.min.css"))
         .pipe(cleanCSS())
-        .pipe(gulp.dest("site_build"));
+        .pipe(gulp.dest(""));
 })
