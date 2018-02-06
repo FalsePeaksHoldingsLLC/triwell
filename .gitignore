@@ -1,5 +1,1 @@
 node_modules/
-site_build/*
-!site_build/robot.txt
-!site_build/sitemap.xml
-!site_build/.htaccess
