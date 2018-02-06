@@ -4,7 +4,7 @@
        <div class="collection-item" ng-repeat="blog in blogs | orderBy: -blog.published">
           <div class="row" id="{{blog.id}}">
              <div class="col s12 m8">
-                <div class="card blue-grey lighten-5">
+                <div class="card grey lighten-5">
                    <div class="card-content gray-text">
                       <h1 class="card-title">{{blog.title}}</h1>
                       <p ng-bind-html="blog.content"></p>
