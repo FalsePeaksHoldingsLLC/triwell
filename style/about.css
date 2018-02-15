@@ -9,13 +9,13 @@
 
 #me{
     float: left;
-    margin-right: 10px;
+    margin-right: 16px;
     margin-bottom: 1px;
 }
 
 #rockHike{
     float: right;
-    margin-left: 10px;
+    margin-left: 16px;
     margin-bottom: 1px;
 }
 
@@ -39,4 +39,9 @@
 
 #about b{
     color: #0d47a1;
+}
+
+#about article{
+    clear: both;
+    padding-bottom: 25px;
 }

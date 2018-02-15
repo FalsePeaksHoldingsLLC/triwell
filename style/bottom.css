@@ -1,3 +1,7 @@
 footer ol li{
     display:inline;
 }
+footer p{
+    font-size: 11px;
+    padding: 16px;
+}
