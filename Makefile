@@ -9,10 +9,9 @@
 ########################################################################################################################
 
 SHELL:=/bin/bash
-USER:=[USER]
-ACCOUNT:=[ACCOUNT]
-BASE_WD:=[BASE_WD]
-
+USER:=nagel
+ACCOUNT:=w3.uvm.edu
+BASE_WD:=/users/n/a/nagel/www-root/triwell/
 
 ##############################################   Project SETUP   #######################################################
 
@@ -53,7 +52,7 @@ release: build
 	ssh $(USER)@$(ACCOUNT) 'mkdir -p $(BASE_WD)../backup/'
 	ssh $(USER)@$(ACCOUNT) 'rm -rf $(BASE_WD)../backup/*'
 	ssh $(USER)@$(ACCOUNT) 'mv $(BASE_WD)* $(BASE_WD)../backup/'
-	scp -P 22 -r site_build/* $(USER)@$(ACCOUNT):$(BASE_WD)
+	scp -P 22 -r docs/* $(USER)@$(ACCOUNT):$(BASE_WD)
 
 
 ##############################################   Website Restore   #####################################################
