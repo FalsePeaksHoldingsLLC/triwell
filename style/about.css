@@ -6,3 +6,19 @@
 #about > div > div.container{
     padding-top: 20px;
 }
+
+#me{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+#rockHike{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+#about p{
+    text-align: justify;
+}
