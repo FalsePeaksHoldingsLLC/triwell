@@ -2,7 +2,7 @@ app.config(['$routeProvider','$locationProvider',
     function ($routeProvider, $locationProvider){
         $routeProvider
         .when("/", {
-            templateUrl : "templates/contact.html"
+            templateUrl : "templates/home.html"
         }).when("/about", {
             templateUrl : "templates/about.html"
         })
