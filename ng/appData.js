@@ -28,14 +28,11 @@ app.controller('dataCtrl', ['$scope', '$http', function($scope, $http) {
                 message: message.value
             }),
             method: 'POST',
+            dataType: "json",
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/x-www-form-urlencoded'
             }
-        }).then(function(success) {
-            console.log("success")
-        }, function(error) {
-            console.log("failure")
-        });
+        })
     };
 }])
