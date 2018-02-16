@@ -45,23 +45,3 @@
     clear: both;
     padding-bottom: 25px;
 }
-
-#about > div:nth-child(1){
-    padding-top: 40px;
-    text-align: center;
-    height: 100vh;
-}
-
-#about > div:nth-child(1) > h5{
-    color: darkgrey;
-    padding: 10px;
-    margin-top: 20px !important;
-}
-#about > div:nth-child(1) > p > a > img{
-    box-shadow: none;
-}
-
-#about > div:nth-child(1) > p{
-    text-align: center;
-    font-size: 25px;
-}
